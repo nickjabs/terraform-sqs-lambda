@@ -1,0 +1,14 @@
+# AWS SSO configuration files
+# Exclude AWS CLI configuration files, which may contain sensitive credentials
+/.aws/config
+/.aws/credentials
+
+# Ignore Terraform state files and directories
+/.terraform
+/terraform.tfstate
+/terraform.tfstate.backup
+
+# Ignore build artifacts, temporary files, and dependencies
+/node_modules
+*.log
+*.zip
